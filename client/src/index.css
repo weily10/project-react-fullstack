@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  font-size: medium;
+  height: 100dvh;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}

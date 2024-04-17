@@ -13,7 +13,7 @@ export default function App(){
     <Menu></Menu> */}
     <div className="container mx-auto">
     <Routes>
-      <Route path="/" element={<SignIn/>}></Route>
+      <Route path="/" element={<Home/>}></Route>
       <Route path="/sign-in" element={<SignIn/>}></Route>
       <Route path="/sign-up" element={<SignUp/>}></Route>
     </Routes>

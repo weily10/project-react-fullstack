@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
+import OAuth from "../components/oauth";
 import {
   signInStart,
   signInSuccess,
@@ -19,7 +20,6 @@ export default function SingIn() {
       [e.target.id]: e.target.value,
     });
   };
-
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -88,6 +88,16 @@ export default function SingIn() {
             >
               {loading ? "loading" : "LOGIN"}
             </button>
+          </div>
+          <div className="mt-3">
+            <OAuth></OAuth>
+          </div>
+          <div>
+            p
+            dont have an account?
+            <Link to={"/sign-up"}>
+              <span className="text-blue-700 ml-1">Sign Up</span>
+            </Link>
           </div>
         </div>
       </div>

@@ -7,18 +7,17 @@ import SignUp from "./pages/SignUp"
 
 export default function App(){
     return (
-
-    <BrowserRouter>
-    {/* <Header></Header>
+      <BrowserRouter>
+        {/* <Header></Header>
     <Menu></Menu> */}
-    <div className="container mx-auto">
-    <Routes>
-      <Route path="/" element={<Home/>}></Route>
-      <Route path="/sign-in" element={<SignIn/>}></Route>
-      <Route path="/sign-up" element={<SignUp/>}></Route>
-    </Routes>
-    </div>
-    </BrowserRouter>
+        <div className="container mx-auto">
+          <Routes>
+            <Route path="/" element={<Home />}></Route>
+            <Route path="/sign-in" element={<SignIn />}></Route>
+            <Route path="/sign-up" element={<SignUp />}></Route>
+          </Routes>
+        </div>
+      </BrowserRouter>
     );
 }
 

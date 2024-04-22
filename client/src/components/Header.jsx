@@ -9,7 +9,7 @@ export default function Header() {
       <div></div>
       <Link to="/profile">
         {currentUser ? (
-          <div class="relative w-10 h-10 overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600 cursor-pointer">
+          <div className="relative w-10 h-10 overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600 cursor-pointer">
             <img src={currentUser.avatar} alt="profile" className="object-cover"></img>
           </div>
         ) : (

@@ -93,7 +93,6 @@ export default function SingIn() {
             <OAuth></OAuth>
           </div>
           <div>
-            p
             dont have an account?
             <Link to={"/sign-up"}>
               <span className="text-blue-700 ml-1">Sign Up</span>

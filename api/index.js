@@ -12,7 +12,7 @@ mongoose
     console.log("success");
   })
   .catch((err) => {
-    console.log("error");
+    console.log("mongo error",err);
   });
 
 const app = express();
